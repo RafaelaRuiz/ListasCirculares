@@ -27,10 +27,10 @@ public class CircularList {
         System.out.println(current.getName());
         print(current.getNext());
     }
-    
+
     public void delete(String goal){
         if(head==null){
-            System.out.println("Lista vacía");
+            System.out.println("Empty list");
         }else if(head==head.getNext()){
         }else{
             delete(head, goal);
